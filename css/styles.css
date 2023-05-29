@@ -7,8 +7,9 @@
 body {
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #e6e6e6;
+
 }
+
 
 /* Layout */
 #area-cabecalho {
@@ -20,6 +21,40 @@ body {
 #area-logo, #area-menu {
     padding: 10px;
 }
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagens, #area-lateral{
+    background-color: orange;
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #ccc;
+}
+
 
 /* Formatação do Menu */
 a{
@@ -35,6 +70,7 @@ a:hover{
     color: #f7b600;
     background-color: #fff;
 }
+
 
 /* Formatações em Geral */
 h1 {
